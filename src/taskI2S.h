@@ -8,4 +8,9 @@ extern TaskHandle_t tskI2S;
 extern void setupI2S1(void);
 extern void TaskI2SMain(void *pvParameters);
 
+void setVolume(uint8_t value);
+uint8_t getVolume();
+void volumeUp();
+void volumeDown();
+
 #endif

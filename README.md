@@ -18,6 +18,7 @@ It plays X68000 MDX music files using YM2151 (OPM) emulation.
 - microSD card
 - Visual Studio Code
 - PlatformIO IDE extension
+- M144 Module Audio (optional)
 
 ## Usage
 
@@ -26,6 +27,9 @@ It plays X68000 MDX music files using YM2151 (OPM) emulation.
 3. Turn on the device. Playback will begin automatically.
 
 After all files have finished playing, playback will restart from the first file.
+
+Using the M44 Module Audio enables headphone output.
+When you plug in headphones, the audio will be output through them.
 
 ## Build
 
